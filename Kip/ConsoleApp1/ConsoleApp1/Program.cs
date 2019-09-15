@@ -10,10 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string name;
-            Console.WriteLine("Enter");
-            name = Console.ReadLine();
-            Console.WriteLine("Hello {0} ", name);
+            string first, last;
+            Console.WriteLine("Firs name");
+            first = Console.ReadLine();
+            Console.WriteLine("Last name");
+            last = Console.ReadLine();
+            Console.WriteLine("Hello {0} {1}", first,last);
             Console.ReadLine();
         }
     }
